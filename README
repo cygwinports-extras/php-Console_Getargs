@@ -1,0 +1,53 @@
+php-Console_Getargs
+------------------------------------------
+The Console_Getargs package implements a Command Line arguments and
+parameters parser for your CLI applications. It performs some basic
+arguments validation and automatically creates a formatted help text,
+based on the given configuration.
+
+Runtime requirements:
+  php-5.2.5-1
+  php-pear-5.2.5-1
+
+Canonical website:
+  http://pear.php.net/package/Console_Getargs/
+
+Canonical download:
+  http://pear.php.net/get/Console_Getargs
+
+-------------------------------------------
+
+Build instructions:
+  unpack php-Console_Getargs-1.3.4-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./php-Console_Getargs-1.3.4-X.cygport all
+
+This will create:
+  /usr/src/php-Console_Getargs-1.3.4-X-src.tar.bz2
+  /usr/src/php-Console_Getargs-1.3.4-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/share/pear/.registry/console_getargs.reg
+  /usr/share/pear/Console/Getargs.php
+  /usr/share/pear/doc/Console_Getargs/examples/example.php
+  /usr/share/pear/doc/Console_Getargs/examples/example2.php
+  /usr/share/pear/test/Console_Getargs/tests/Console_TestListener.php
+  /usr/share/pear/test/Console_Getargs/tests/Getargs_basic_testcase.php
+  /usr/share/pear/test/Console_Getargs/tests/Getargs_getValues_testcase.php
+  /usr/share/pear/test/Console_Getargs/tests/test.php
+
+------------------
+
+Port Notes:
+
+----- version 1.3.4-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
